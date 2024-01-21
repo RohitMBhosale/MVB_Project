@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Bootstrap JavaScript (optional) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyIduRhN7L9UL/bpF5eF+1p0F60/1Ui1Jf" crossorigin="anonymous">
+
+        <!-- Your custom CSS -->
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /* Add custom CSS styles for hover effect */
+            .navbar-nav .nav-item .nav-link {
+                transition: transform 0.2s ease-in-out;
+            }
+    
+            .navbar-nav .nav-item .nav-link:hover {
+                transform: scale(1.1);
+            }
+            .contact{
+                height:fit-content;
+                display:flex;
+                justify-content: space-around;
+                margin-top: 50px;
+            }
+            .socials{
+border-right: 1px solid grey;                height:500px;
+                width: 25%;;
+                padding: 10px;
+            }
+            .logo{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .logo img{
+                width: 10vw;
+                height:13vh
+            }
+            .logo a{
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                margin-bottom: 15px;
+            }
+             .socials h4{
+                color: rgb(77, 76, 76);
+                margin-top: 40px;;
+                margin-bottom: 15px;;
+             }
+             .socials p{
+                margin-top: 20px;
+                font-size: 17px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: rgb(97, 96, 96);
+                font-weight: bold;
+             }
+        .search-bar{
+             border-radius: 10px;
+             padding:10px;
+
+        }
+        </style>
+    </head>
+        
+    <body class="main">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid d-flex flex-row justify-content-between align-items-center">
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav active">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clients.html">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand img-fluid" href="#">
+                <img src="https://static.vecteezy.com/system/resources/previews/009/184/945/non_2x/skd-letter-logo-design-with-polygon-shape-skd-polygon-and-cube-shape-logo-design-skd-hexagon-logo-template-white-and-black-colors-skd-monogram-business-and-real-estate-logo-vector.jpg" alt="Logo" height="65" class="d-inline-block align-top">
+            </a>
+    
+        </nav>
+        <div class="contact"></div>
+    </body>
+<div class="contact">
+
+
+    <div class="socials">
+        <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/previews/009/184/945/non_2x/skd-letter-logo-design-with-polygon-shape-skd-polygon-and-cube-shape-logo-design-skd-hexagon-logo-template-white-and-black-colors-skd-monogram-business-and-real-estate-logo-vector.jpg" alt="Logo" height="65" class="d-inline-block align-top">
+            <a href="vishwasbhosale616@gmail.com"><strong>Email -</strong>vishwas.bhosale616@gmail.com</a>
+            <a href="9850024847"><strong>Mobile no. - </strong>9850025847</a>
+            <a href="9822361117"><strong>Mobile no. - </strong>9822361117</a>
+            <a href="">Plot no. 18, 83/1, Shivkrupa Colony,Near Axis Bank ATM, Sainathnagar Nigdi, Pune 411044.</a>
+
+            <div social-handles>
+                <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+            
+            </div>
+
+        </div>
+    </div>
+
+    <div class="socials">
+        <h4>Services</h4>
+        <p>Travel</p>
+        <p>Transport</p>
+        <p>Logistics</p>
+        
+    </div>
+    <div class="socials " style="border: 0px;">
+        <h4>Subscribe</h4>
+
+        <input type="email"  class="search-bar" placeholder="email...">
+        <button onclick="searchFunction()">Search</button>
+        <p>Esteem spirit temper too say adieus who direct esteem esteems luckily.
+
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+<script src="script.js"></script>
+
+</html
